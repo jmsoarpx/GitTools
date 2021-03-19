@@ -1,0 +1,16 @@
+.card__repos {
+  display: flex;
+  flex-direction: column;
+}
+
+.card__repos__body {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.card__repos__nome {
+  font-size: 12px;
+  font-weight: inherit;
+  margin-bottom: 3px;
+}

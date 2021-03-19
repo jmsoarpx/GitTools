@@ -1,0 +1,53 @@
+/*
+1) Header, Colunas e Footer
+2) Colunas de tamanho fixo
+3) Rodapé fixo
+4) Conteudo Primeiro no HTML
+5) Marcação minima
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+.container > * {
+  border-radius: 3px;
+  border: 1px solid rgba(10, 1, 1, 0);
+  margin: 5px;
+  padding: 15px;
+  text-align: center;
+  transition: all 150ms ease;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content {
+  display: flex;
+  flex: 1;
+  padding: 0;
+}
+
+.main {
+  flex: 1;
+}
+
+.navbar-brand {
+  padding: 18px 20px;
+  display: inline-block;
+}
+
+.header {
+  background-color: #4abdac;
+  color: #fff;
+}
+
+.main__filter {
+  display: flex;
+}
+
+.main__filter > div {
+  padding: 20px;
+  margin: 10px;
+}
