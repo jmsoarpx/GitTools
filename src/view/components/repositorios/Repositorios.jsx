@@ -12,7 +12,7 @@ export default (props) => {
             <>
               <div className="card__repos__nome">
                 Nome Repositorio:&nbsp;
-                <a class="github-card-repo-headline" href={e.html_url} target="_black">
+                <a href={e.html_url} target="_black">
                   <b>{e.name}</b>
                 </a>
               </div>
